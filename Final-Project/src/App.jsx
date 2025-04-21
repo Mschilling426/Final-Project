@@ -48,7 +48,7 @@ function App() {
   return (
     <div>
       <button onClick={fetchQuote}>
-        {loading ? 'Loading...' : 'Get Motivational Quote'}
+        {loading ? 'Loading...' : 'Quotes'}
       </button>
       {errorMessage && <p>{errorMessage}</p>}
       {quote && (

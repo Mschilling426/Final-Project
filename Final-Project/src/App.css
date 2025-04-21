@@ -1,5 +1,5 @@
 
-body {
+  body {
   font-family: 'Lato', sans-serif; 
   background: linear-gradient(135deg, #f5f7fa, #789cd7);
   margin: 0;
@@ -111,10 +111,6 @@ p {
   color: #555;
   margin: 0.5rem 0;
 }
-
-
-
-
 
 /* Responsive Design */
 @media (max-width: 768px) {
