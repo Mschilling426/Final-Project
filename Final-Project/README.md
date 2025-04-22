@@ -1,12 +1,23 @@
-# React + Vite
+ Usage Guidelines
+Enter your name and age into the input box and click "Quotes".
+The app will fetch and display the random quote and author.
+If name contains numbers is, if age contains letters, an error message will be shown.
+If the quote is not found, an error will be prompt.
+ 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔍 Implementation Details
+✅ Technologies Used
+React JS (with Vite for fast development)
+fetch (for making API requests)
+ API ninja.com for qoutes
+CSS (for basic styling)
+used CO Pilot for assistance.
+ 
 
-Currently, two official plugins are available:
+✅ Features Implemented
+Input Validation: The app checks that a name and age are entered correctly before making a request.
+Third-Party API Integration: Uses to fetch data from API ninja.com.
+Quote Component: Displays the quote data including author.
+ 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+future plans are still being brainstormed...
